@@ -1,0 +1,8 @@
+{
+  "name": "ngo-attendance",
+  "private": true,
+  "scripts": {
+    "build": "npm install --prefix frontend --include=dev && npm run build --prefix frontend && npm install --prefix backend",
+    "start": "node backend/server.js"
+  }
+}
